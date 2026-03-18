@@ -1,0 +1,119 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+  font-family: myInter;
+  src: url("./samples/Inter_Black_Font_Family/Inter_Black_900.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: aliceblue;
+  color: darkslategrey;
+  background-image: url("./samples/istockphoto-1404894979-612x612.jpg");
+  padding: 5px 5px;
+}
+
+header,
+nav,
+footer {
+  background-color: rgba(240, 248, 255, 0.8);
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 2vh, 2vw;
+}
+
+header {
+  padding: 2px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  display: block;
+  margin-bottom: 5px;
+}
+
+h1,
+h1 + p {
+  font-family: myInter;
+}
+
+h2 {
+  font-style: oblique;
+  text-align: center;
+  padding-left: 1vw;
+}
+
+h2 + p {
+  text-align: center;
+}
+
+.first,
+.second,
+.third,
+.table,
+.frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 15px;
+  padding: 10px;
+  column-gap: 15px;
+  background-color: rgba(240, 248, 255, 0.8);
+  border-radius: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  background-color: rgba(47, 79, 79, 0.05);
+  list-style-type: none;
+  margin: 0;
+  padding: 0, auto, 0, auto;
+  overflow: hidden;
+  align-content: center;
+}
+
+ul li a {
+  float: left;
+  text-align: center;
+  display: block;
+  color: darkslategrey;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 5px 10px;
+  border: 1px solid transparent;
+}
+
+ul li a:hover {
+  border-width: 1px;
+  border-radius: 20px;
+  border-color: rgb(100, 100, 100);
+  background-color: rgba(47, 79, 79, 0.1);
+}
+
+ul li a:active {
+  background-color: rgba(171, 174, 174, 0.279);
+  border-radius: 20px;
+  border-width: 1.5px;
+  border-color: rgb(0, 0, 0);
+  color: black;
+}
+
+section {
+  margin-bottom: 10px;
+}
+
+iframe {
+  border-radius: 15px;
+}
