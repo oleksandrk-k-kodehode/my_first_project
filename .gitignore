@@ -3,6 +3,9 @@ node_modules/
 samples/
 ./samples
 samples
+bildemappe
+./bildemappe
+./bildemappe/
 
 # Ignore environment files
 .env
