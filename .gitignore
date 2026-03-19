@@ -1,5 +1,7 @@
 # Ignore node modules
 node_modules/
+
+# Ignore media
 samples/
 ./samples
 samples
