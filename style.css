@@ -86,9 +86,11 @@ ul {
   background-color: rgba(47, 79, 79, 0.05);
   list-style-type: none;
   margin: 0;
-  padding: 0, auto, 0, auto;
+  padding: 0;
   overflow: hidden;
   align-content: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 ul li a {
@@ -98,8 +100,8 @@ ul li a {
   color: darkslategrey;
   text-align: center;
   text-decoration: none;
-  padding: 10px 15px;
-  margin: 5px 10px;
+  padding: 10px;
+  margin: 5px;
   border: 1px solid transparent;
 }
 
